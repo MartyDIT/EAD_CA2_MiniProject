@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="325ebc31-152e-4b5e-a0f9-3cefc1a2a641" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings>
+      <CollectionMapping TypeName="System.Collections.Generic.List`1" Category="List" />
+    </CollectionMappings>
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:51367/EADService.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="EADService.xsd" MetadataType="Schema" ID="e07f4046-a7d7-4db5-8151-0e67879c100b" SourceId="1" SourceUrl="http://localhost:51367/EADService.svc?xsd=xsd2" />
+    <MetadataFile FileName="EADService1.xsd" MetadataType="Schema" ID="21ffb471-50d0-4412-8d8c-877c262fcb78" SourceId="1" SourceUrl="http://localhost:51367/EADService.svc?xsd=xsd1" />
+    <MetadataFile FileName="EADService.disco" MetadataType="Disco" ID="1acc1cdd-d51c-4679-a6d8-44185dfe553a" SourceId="1" SourceUrl="http://localhost:51367/EADService.svc?disco" />
+    <MetadataFile FileName="EADService2.xsd" MetadataType="Schema" ID="70523932-73d0-4c10-8e3e-7b36dfd59b60" SourceId="1" SourceUrl="http://localhost:51367/EADService.svc?xsd=xsd0" />
+    <MetadataFile FileName="EADService.wsdl" MetadataType="Wsdl" ID="a60d24ac-eeda-4af1-ae56-d01149221d9e" SourceId="1" SourceUrl="http://localhost:51367/EADService.svc?wsdl" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

@@ -1,0 +1,1 @@
+﻿<%@ ServiceHost Language="C#" Debug="true" Service="EAD_Rest_Webservice.EADRestService" CodeBehind="EADRestService.svc.cs" %>

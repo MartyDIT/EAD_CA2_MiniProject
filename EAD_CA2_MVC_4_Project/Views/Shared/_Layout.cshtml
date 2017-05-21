@@ -1,0 +1,35 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>@ViewBag.Title</title>
+    @Styles.Render("~/Content/css")
+</head>
+
+<body>
+    <div class="container">
+        <div class="header clearfix">
+            <nav>
+                <ul class="nav nav-pills pull-right">
+                    <li role="presentation"><a id="Home" href="@Url.Action("index", "home")">Home</a></li>
+                    <li role="presentation"><a id="Home" href="@Url.Action("RestfulAPI", "home")">Restful API </a></li>
+                    <li role="presentation"><a id="Home" href="@Url.Action("WCFTestPage", "home")">WCF Service</a></li>
+                </ul>
+            </nav>
+            <h3 class="text-muted">ASP.net MVC4 Application</h3>
+        </div>
+
+        @RenderBody()
+
+        <footer class="footer">
+            <p></p>
+        </footer>
+
+    </div>
+    <!-- /container -->
+    @Scripts.Render("~/bundles/jquery")
+    @RenderSection("scripts", required: false)
+</body>
+</html>
+

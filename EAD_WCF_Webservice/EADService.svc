@@ -1,0 +1,1 @@
+﻿<%@ ServiceHost Language="C#" Debug="true" Service="EAD_WCF_Webservice.EADService" CodeBehind="EADService.svc.cs" %>
